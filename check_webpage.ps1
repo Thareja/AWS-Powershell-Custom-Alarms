@@ -10,7 +10,7 @@ This is a webpage load wrapper function to check if we can load a webpage succes
     Requires   : PowerShell V2 CTP3  & Installed AWS Tools
     Description: Install as scheduled task the following command C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe -Command "Import-Module 'C:\Program Files (x86)\AWS Tools\PowerShell\AWSPowerShell\AWSPowerShell.psd1'; Initialize-AWSDefaults -AccessKey your_accesskey -SecretKey your_secretkey -Region us-west-2; . C:\Users\dtharej\Documents\cloudwatch_check_webpage1.ps1" 
 .LINK
-www.yahoo.com
+www.awesomeactually.com
 #>
 
 
