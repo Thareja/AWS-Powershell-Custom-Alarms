@@ -1,9 +1,8 @@
 # AWS-Powershell-Custom-Alarms
+
+I created 2 custom alarms.
+
+One to check to see if a webpage loads (check_webpage.ps1) and a second to test if the mysql connection is up (check_mysql.ps1)
+
 This is a webpage load wrapper function to check if we can load a webpage successfully and report to AWS Cloudwatch
-
--> Usage for check_webpage.ps1
-Install as scheduled task the following command C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe -Command "Import-Module 'C:\Program Files (x86)\AWS Tools\PowerShell\AWSPowerShell\AWSPowerShell.psd1'; Initialize-AWSDefaults -AccessKey your_accesskey -SecretKey your_secretkey -Region us-west-2; . C:\Users\dtharej\Documents\cloudwatch_check_webpage1.ps1" 
-.LINK
-www.yahoo.com
-
 
